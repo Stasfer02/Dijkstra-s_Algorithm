@@ -10,6 +10,7 @@ These can be specified by the user.
 
 An example input would look like this:
 
+
 2           -> meaning, two disruptions 
 
 Utrecht     -> disruption 1, city 1
@@ -21,29 +22,52 @@ Enschede    -> disruption 2, city 1
 Zwolle      -> disruption 2, city 2
 
 Amsterdam   -> route 1, city 1
+
 Groningen   -> route 1, city 2
+
 Enschede    -> route 2, city 1
+
 Eindhoven   -> route 2, city 2
+
 Leeuwarden  -> route 3, city 1
+
 Eindhoven   -> route 3, city 2
+
 !
+
 
 the corresponding output would be:
 
+
 Amsterdam   -> route 1
+
 Utrecht     ..
+
 Eindhoven   ..
+
 Nijmegen    ..
+
 Zwolle      ..
+
 Meppel      ..
+
 Groningen   -> end route 1
+
 269         -> #minutes round 1 took
+
 UNREACHABLE -> the second route is not reachable due to disruptions
+
 Leeuwarden  -> route 3 
+
 Meppel      ..
+
 Zwolle      ..
+
 Nijmegen    ..
+
 Eindhoven   -> end route 3
+
 187         -> #minutes route 3 took
+
 
 
