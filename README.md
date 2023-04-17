@@ -8,7 +8,7 @@ These can be specified by the user.
 
 An example input would look like this:
 
-2           -> meaning, two disruptions
+2           -> meaning, two disruptions 
 Utrecht     -> disruption 1, city 1
 Zwolle      -> disruption 1, city 2
 Enschede    -> disruption 2, city 1
